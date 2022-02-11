@@ -1,0 +1,40 @@
+.header__animation {
+  position: relative;
+}
+
+.big > img {
+  position: absolute;
+}
+
+.small > img {
+  position: absolute;
+  right: 0;
+  top: 120px;
+}
+
+@media screen and (max-width: 470px) {
+}
+
+@media screen and (max-width: 576px) {
+  .header__animation {
+    position: relative;
+  }
+  .big > img {
+    position: absolute;
+  }
+
+  .small > img {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 1200px) {
+}

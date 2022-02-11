@@ -1,0 +1,97 @@
+.about__left {
+}
+
+.about__left > h2 {
+  font-size: 45px;
+  font-weight: 400;
+  color: #ffe600;
+  text-shadow: #ffe600 0 0 20px;
+}
+
+.about__left > p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.openApp__about {
+  width: 156px;
+  border: none;
+  height: 41px;
+  border: 3px solid #ffe600;
+  border-radius: 9px;
+  background-color: transparent;
+  box-shadow: 0 0 10px #ffe600;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.openApp__about:hover {
+  background-color: rgba(255, 230, 0, 0.5);
+}
+
+.about__right > h3 {
+  color: #ffe600;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about__right > span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 470px) {
+  .about__right > h3 {
+    color: #ffe600;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .about__right > span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about__right > h3 {
+    color: #ffe600;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .about__right > span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__right > h3 {
+    color: #ffe600;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .about__right > span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 1200px) {
+}

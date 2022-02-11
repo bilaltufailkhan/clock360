@@ -1,0 +1,45 @@
+.socials__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__ListItems {
+  margin-bottom: 1rem;
+}
+
+.footer__ListItems > a {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.footer__ListItems > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__ListItems > a > img {
+  margin-right: 0.5rem;
+}
+
+.widget > p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffe600;
+}
+
+.footer__OpenApp {
+  width: 156px;
+  border: none;
+  height: 41px;
+  border: 3px solid #ffe600;
+  border-radius: 9px;
+  background-color: transparent;
+  box-shadow: 0 0 10px #ffe600;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer__OpenApp:hover {
+  background-color: rgba(255, 230, 0, 0.5);
+}

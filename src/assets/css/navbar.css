@@ -1,0 +1,177 @@
+.nav__bar {
+  background-color: transparent;
+}
+
+.navbar-toggler {
+}
+
+.toggle__btn > .navbar-toggler-icon {
+  background-image: url("../img/menu.png");
+}
+
+.toggle__cross > .navbar-toggler-icon {
+  background-image: url("../img/ring.png");
+}
+
+.logo {
+}
+
+.navbar__toggler {
+}
+
+.navbar__collapse {
+}
+
+.navbar__content {
+}
+
+.nav__item {
+}
+
+.nav__link {
+  font-size: 13px;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.nav__link:hover {
+  color: white;
+}
+
+.open__app {
+  border: 3px solid #ffe600;
+  border-radius: 10px;
+  font-size: 13px;
+  height: 41px;
+  width: 95px;
+  text-align: center;
+}
+
+.open__app:hover {
+  background-color: rgba(255, 230, 0, 0.5);
+}
+
+.openApp__btn {
+  color: #fff;
+}
+
+.openApp__btn:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .smallNav__bg {
+    background: linear-gradient(
+      192.05deg,
+      rgba(255, 230, 0, 0) 0%,
+      rgba(255, 230, 0, 0.6) 100%
+    );
+    text-align: end;
+    display: flex;
+    justify-content: end;
+  }
+}
+
+/* Drawer Navigation Styles */
+
+.bread__crumb > .btn__drawer > i {
+  font-size: 1.5rem;
+  color: #ffe600;
+  font-weight: 700;
+}
+
+.btn__drawer {
+  background-color: transparent;
+  border: none;
+  outline: 0;
+}
+
+.drawer__nav {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drawer {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3002;
+  padding: 1.8rem;
+  background: linear-gradient(
+    192.05deg,
+    rgba(255, 230, 0, 1) 0%,
+    rgba(255, 230, 0, 0.6) 100%
+  );
+  border: 1px solid #ffe600;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.drawer__off {
+  display: none;
+}
+
+.drawer__list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.drawer__item:last-child {
+  border-bottom: #ffe600 solid 0;
+}
+
+.drawer__item:first-child {
+  border-bottom: #ffe600 solid 0;
+}
+
+.drawer__item {
+  margin-bottom: 1rem;
+  border-bottom: #ffe600 solid 2px;
+  width: 100%;
+  text-align: right;
+  padding-bottom: 1rem;
+}
+
+.drawer__item > a {
+  color: #fff;
+  font-size: 20px;
+  width: 80%;
+}
+
+.drawer__item > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.drawer__item > button {
+  border: 3px solid #ffe600;
+  border-radius: 10px;
+  font-size: 13px;
+  height: 41px;
+  width: 80%;
+  text-align: center;
+  background-color: transparent;
+}
+
+.drawer__item > button:hover {
+  background-color: rgba(255, 230, 0, 0.5);
+}
+
+.fa-xmark {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#btn__xmark {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+}

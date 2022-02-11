@@ -1,0 +1,18 @@
+.faqs__h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.faqs__txt {
+  color: #ffffff;
+}
+
+.faqs__collapse {
+  padding: "16px 20px 10px 20px";
+}
+
+.faqs__disp {
+  color: #ffffff;
+  border: "2px solid #FFE600";
+}
