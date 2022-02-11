@@ -1162,12 +1162,12 @@
 
 @keyframes prog {
   0% {
-    width: 9%;
+    width: 0px;
   }
   50% {
-    width: 7%;
+    width: 20px;
   }
   100% {
-    width: 9%;
+    width: 40px;
   }
 }
