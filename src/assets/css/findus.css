@@ -1,4 +1,12 @@
-.find__us {
+.find__us img {
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+.find__us img:hover {
+  filter: none;
+  cursor: pointer;
+  transform: scale(110%);
 }
 
 .findus__heading {

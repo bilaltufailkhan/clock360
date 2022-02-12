@@ -1,10 +1,39 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import nftImg from "../assets/img/nftbg.png";
+import anime from "animejs";
 
 import "../assets/css/nft.css";
 
 const NftSection = () => {
+  const animationRef = React.useRef(null);
+
+  React.useEffect(() => {
+    animationRef.current = anime({
+      targets: ".nftImg",
+      translateX: [500, 0],
+      delay: (nftImg, i) => {
+        return i * 100000;
+      },
+      loop: 1,
+      direction: "forward",
+      easing: "spring(1, 80, 10, 0)",
+    });
+  }, []);
+
+  React.useEffect(() => {
+    animationRef.current = anime({
+      targets: ".clock__heading",
+      translateX: [-500, 0],
+      delay: (clock__heading, i) => {
+        return i * 100000;
+      },
+      loop: 1,
+      direction: "forward",
+      easing: "spring(1, 80, 10, 0)",
+    });
+  }, []);
+
   return (
     <>
       <Container className="py-5 my-5 d-flex align-items-center">
@@ -36,7 +65,7 @@ const NftSection = () => {
             </ul>
           </Col>
           <Col md={6} className="order-12">
-            <img src={nftImg} width="100%" height="auto" />
+            <img className="nftImg" src={nftImg} width="100%" height="auto" />
           </Col>
         </Row>
       </Container>

@@ -45,10 +45,12 @@
   height: 41px;
   width: 95px;
   text-align: center;
+  transition: all 0.5s;
 }
 
 .open__app:hover {
   background-color: rgba(255, 230, 0, 0.5);
+  transform: translateY(-10px);
 }
 
 .openApp__btn {

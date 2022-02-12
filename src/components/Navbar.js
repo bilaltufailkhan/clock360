@@ -58,7 +58,7 @@ class NavBar extends React.Component {
       return (
         <div>
           <Navbar expand="md" className="nav__bar">
-            <Container fluid>
+            <Container>
               <NavbarBrand href="/">
                 <img src={logo} width="auto" height="41px" className="logo" />
               </NavbarBrand>

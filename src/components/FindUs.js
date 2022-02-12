@@ -11,6 +11,7 @@ import img5 from "../assets/img/5.png";
 import img6 from "../assets/img/6.png";
 import img7 from "../assets/img/7.png";
 import img8 from "../assets/img/8.png";
+import AnimatedLine from "./AnimatedLine";
 
 const FindUs = () => {
   return (
@@ -34,6 +35,9 @@ const FindUs = () => {
           <Col lg={3} md={6} className="p-2 my-2">
             <img src={img4} width="198px" height="auto" />
           </Col>
+        </Row>
+        <Row>
+          <AnimatedLine />
         </Row>
         <Row className="justify-content-center d-flex align-items-center text-center">
           <Col lg={3} md={6} className="p-2 my-2">

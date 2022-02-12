@@ -27,7 +27,7 @@ const AdminView = (props) => {
       </div>
       <AboutSection />
       <FindUs />
-      <AnimatedLine />
+      {/* <AnimatedLine /> */}
       <div className="mesh2">
         <HoursSection />
         {/* <HowItWorks /> */}

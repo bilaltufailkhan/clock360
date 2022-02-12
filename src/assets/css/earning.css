@@ -40,10 +40,12 @@
   box-shadow: 0 0 10px #ffe600;
   color: #ffffff;
   font-size: 13px;
+  transition: all 0.5s;
 }
 
 .earning__btn:hover {
   background-color: rgba(255, 230, 0, 0.5);
+  transform: translateY(-10px);
 }
 
 /* Media Queries */

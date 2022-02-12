@@ -260,6 +260,16 @@
   position: absolute;
   top: 46%;
   left: 34%;
+  animation: tridisp 5s ease-in linear infinite;
+}
+
+@keyframes tridisp {
+  0% {
+    transform: scale(0px);
+  }
+  100% {
+    transform: scale(100%);
+  }
 }
 
 .triangle__4 {
@@ -273,9 +283,100 @@
   left: 48.9%;
 }
 
+/* Animations */
+
+.q1__line {
+  animation: prog 5s linear infinite;
+  right: 42.5%;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  transform: rotate(180deg);
+  transform-origin: right;
+}
+
+@keyframes prog {
+  0% {
+    width: 0px;
+  }
+  50% {
+    width: 20px;
+  }
+  100% {
+    width: 95px;
+  }
+}
+
+.q3__line {
+  animation: prog3 5s linear infinite;
+  left: 42.5%;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  transform: rotate(180deg);
+  transform-origin: left;
+}
+
+@keyframes prog3 {
+  0% {
+    width: 0px;
+  }
+  50% {
+    width: 20px;
+  }
+  100% {
+    width: 95px;
+  }
+}
+
+.q2__line {
+  animation: prog2 5s linear infinite;
+  left: 49.8%;
+  bottom: 38.5%;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  transform: rotate(90deg);
+  transform-origin: left;
+}
+
+@keyframes prog2 {
+  0% {
+    width: 0px;
+  }
+  50% {
+    width: 20px;
+  }
+  100% {
+    width: 95px;
+  }
+}
+
+.q4__line {
+  animation: prog4 5s linear infinite;
+  left: 49.8%;
+  top: 35%;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  transform: rotate(270deg);
+  transform-origin: left;
+}
+
+@keyframes prog4 {
+  0% {
+    width: 0px;
+  }
+  50% {
+    width: 20px;
+  }
+  100% {
+    width: 95px;
+  }
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 480px) {
+  .roadmap {
+    /* height: 100vh; */
+  }
   .clock__inner {
     position: absolute;
     top: 42.3%;
@@ -557,6 +658,94 @@
     position: absolute;
     top: 36.6%;
     left: 47.9%;
+  }
+
+  /* Animations */
+
+  .q1__line {
+    animation: prog 5s linear infinite;
+    right: 33%;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    transform: rotate(180deg);
+    transform-origin: right;
+  }
+
+  @keyframes prog {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 37px;
+    }
+  }
+
+  .q3__line {
+    animation: prog3 5s linear infinite;
+    left: 32.5%;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    transform: rotate(180deg);
+    transform-origin: left;
+  }
+
+  @keyframes prog3 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 46.5px;
+    }
+  }
+
+  .q2__line {
+    animation: prog2 5s linear infinite;
+    left: 49.3%;
+    bottom: 44.5%;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    transform: rotate(90deg);
+    transform-origin: left;
+  }
+
+  @keyframes prog2 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 60px;
+    }
+  }
+
+  .q4__line {
+    animation: prog4 5s linear infinite;
+    left: 49.5%;
+    top: 43%;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    transform: rotate(270deg);
+    transform-origin: left;
+  }
+
+  @keyframes prog4 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 55px;
+    }
   }
 }
 
@@ -1143,31 +1332,4 @@
 }
 
 @media screen and (max-width: 1140px) {
-  .clock__inner {
-    position: absolute;
-    top: 50.3%;
-    left: 34.1%;
-    width: 120px;
-  }
-}
-
-/* Animations */
-
-.q1__line {
-  animation: prog 5s linear infinite;
-  animation-fill-mode: forwards;
-  overflow: hidden;
-  /* transform: rotate(180deg); */
-}
-
-@keyframes prog {
-  0% {
-    width: 0px;
-  }
-  50% {
-    width: 20px;
-  }
-  100% {
-    width: 40px;
-  }
 }
