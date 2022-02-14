@@ -9,12 +9,12 @@ const Header = () => {
     <>
       <Container className="header py-5">
         <Row className="">
-          <Col md={6} className="align-items-center">
+          <Col md={6} className="align-items-center order-1 order-sm-2">
             <HeaderContent />
           </Col>
-          {/* <Col md={6} className="">
+          <Col md={6} className="header__gif order-2 order-sm-1">
             <HeaderAnimation />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </>

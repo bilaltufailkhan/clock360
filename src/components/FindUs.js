@@ -15,7 +15,7 @@ import AnimatedLine from "./AnimatedLine";
 
 const FindUs = () => {
   return (
-    <>
+    <div className="findus">
       <Container className="find__us py-5 my-5">
         <Row className="align-items-center justify-content-center">
           <Col md={12} className="text-center findus__heading py-5">
@@ -36,9 +36,9 @@ const FindUs = () => {
             <img src={img4} width="198px" height="auto" />
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <AnimatedLine />
-        </Row>
+        </Row> */}
         <Row className="justify-content-center d-flex align-items-center text-center">
           <Col lg={3} md={6} className="p-2 my-2">
             <img src={img5} width="198px" height="auto" />
@@ -54,7 +54,7 @@ const FindUs = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 

@@ -7,6 +7,13 @@
 
 .socialIcons__list > a > img {
   margin: 1rem;
+  filter: grayscale(100%);
+}
+
+.socialIcons__list > a > img:hover {
+  filter: grayscale(0%);
+  transition: all 0.5s;
+  transform: scale(120%);
 }
 
 .social__heading {

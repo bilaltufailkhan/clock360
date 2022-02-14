@@ -37,8 +37,8 @@ body {
 }
 
 .header__bg {
-  background: url("../img/mesh.png"), url("../img//small.png");
-  background-position: left, right, right;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: cover, contain, contain;
+  background: url("../img/mesh.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

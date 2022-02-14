@@ -12,3 +12,10 @@
 .findus__heading {
   color: #ffffff;
 }
+
+.findus {
+  background: url("../gif/line.gif");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
