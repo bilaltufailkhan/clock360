@@ -26,7 +26,7 @@ class NavBar extends React.Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false,
+      isOpen: true,
       windowWidth: window.innerWidth,
     };
   }
