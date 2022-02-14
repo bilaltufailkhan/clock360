@@ -37,8 +37,29 @@ body {
 }
 
 .header__bg {
-  background: url("../img/mesh.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../img/mesh.png"), url("../gif/1.gif");
+  background-position: left, right -150px top -100px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, 700px auto;
+}
+
+@media screen and (max-width: 470px) {
+  .header__bg {
+    background: url(""), url("../gif/1.gif");
+    background-position: left, right -110px top -180px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, 600px auto;
+  }
+  #overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
 }

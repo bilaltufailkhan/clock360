@@ -375,7 +375,7 @@
 
 @media only screen and (max-width: 480px) {
   .roadmap {
-    /* height: 100vh; */
+    height: auto;
   }
   .clock__inner {
     position: absolute;

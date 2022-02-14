@@ -23,6 +23,7 @@ const AdminView = (props) => {
     <>
       <NavBar />
       <div className="header__bg">
+        {/* <div id="overlay"></div> */}
         <Header />
       </div>
       <AboutSection />

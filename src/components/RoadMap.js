@@ -14,7 +14,7 @@ const RoadMap = () => {
   return (
     <>
       <Container>
-        <Row className="py-5 mb-5">
+        <Row className="py-5">
           <Col xs={12} className="text-center roadmap__heading">
             Road Map
           </Col>
