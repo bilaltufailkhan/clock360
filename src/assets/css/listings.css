@@ -1,6 +1,6 @@
 .listing__box {
   background-color: rgba(255, 230, 0, 0.2);
-  height: 337px;
+  height: auto;
   width: 437px;
   border-radius: 20px;
 }
