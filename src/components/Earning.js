@@ -3,34 +3,10 @@ import { Container, Row, Col } from "reactstrap";
 import anime from "animejs";
 
 import "../assets/css/earning.css";
+
+import Slide from "react-reveal/Slide";
+
 const Earning = () => {
-  const animationRef = React.useRef(null);
-  React.useEffect(() => {
-    animationRef.current = anime({
-      targets: ".earning__left",
-      translateX: [-650, 0],
-      delay: (earning__left, i) => {
-        return i * 10;
-      },
-      loop: 1,
-      direction: "forward",
-      easing: "spring(1, 80, 10, 0)",
-    });
-  }, []);
-
-  React.useEffect(() => {
-    animationRef.current = anime({
-      targets: ".earningRight",
-      translateX: [650, 0],
-      delay: (earningRight, i) => {
-        return i * 10;
-      },
-      loop: 1,
-      direction: "forward",
-      easing: "spring(1, 80, 10, 0)",
-    });
-  }, []);
-
   return (
     <>
       <Container className="">
@@ -47,21 +23,25 @@ const Earning = () => {
         <br />
         <Row className="d-flex align-items-center py-5 justify-content-center">
           <Col md={4} sm={6} className="p-0 mx-5 my-3">
-            <p className="earning__left text-lg-left text-center">
-              At the end of the year and with $1000 USD of $Clock360 invested.
-            </p>
+            <Slide left>
+              <p className="earning__left text-lg-left text-center">
+                At the end of the year and with $1000 USD of $Clock360 invested.
+              </p>
+            </Slide>
           </Col>
           <Col md={4} sm={6} className="text-center mx-5 my-3 earningRight">
-            <p className="earning__right">
-              You can Earn upto{" "}
-              <span id="earning__amount">$1,002,758.54 USD</span> of $Clock360
-              at 102,483.58% APY*.
-            </p>
-            <p className="text-white" style={{ fontSize: "11px" }}>
-              Earnings are calculated in a scenario where the RFV sustains the
-              Rebase Rewards for 360 Days.
-            </p>
-            <button className="earning__btn">Start Earning Now {">"}</button>
+            <Slide right>
+              <p className="earning__right">
+                You can Earn upto{" "}
+                <span id="earning__amount">$1,002,758.54 USD</span> of $Clock360
+                at 102,483.58% APY*.
+              </p>
+              <p className="text-white" style={{ fontSize: "11px" }}>
+                Earnings are calculated in a scenario where the RFV sustains the
+                Rebase Rewards for 360 Days.
+              </p>
+              <button className="earning__btn">Start Earning Now {">"}</button>
+            </Slide>
           </Col>
         </Row>
       </Container>

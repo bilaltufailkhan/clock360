@@ -37,10 +37,10 @@ body {
 }
 
 .header__bg {
-  background: url("../img/mesh.png"), url("../gif/1.gif");
-  background-position: left, right -150px top -100px;
+  background: url("../gif/1.gif"), url("../img/mesh.png");
+  background-position: right -150px top -100px, left;
   background-repeat: no-repeat, no-repeat;
-  background-size: cover, 700px auto;
+  background-size: 700px auto, cover;
 }
 
 @media screen and (max-width: 470px) {
