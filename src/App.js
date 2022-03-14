@@ -12,6 +12,7 @@ function App() {
   React.useEffect(() => {
     googleAnalyticsActions.initGoogleAnalytics("UA-222300293-1");
   }, []);
+
   return (
     <>
       <Provider store={store}>
