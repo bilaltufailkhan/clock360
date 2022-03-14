@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
-body {
+body,
+html {
   font-family: "Space Grotesk", sans-serif;
   background-color: #000000;
   padding: 0 !important;
@@ -841,7 +842,7 @@ body {
   border-radius: 10px;
   font-size: 13px;
   height: 41px;
-  width: 95px;
+  width: auto;
   text-align: center;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -2439,5 +2440,137 @@ p {
 .tokenomics__card > img {
   text-shadow: 0px 0px 20px #ffe600;
   margin-bottom: 1rem;
+}
+
+.footer__bg {
+  background: url("../img/footerbg.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.authCommon {
+  background: rgba(255, 230, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.authCommon h1 {
+  color: #ffe600;
+  font-size: 1rem;
+}
+
+.authCommon h2 {
+  color: #ffffff;
+}
+
+.authCommon .price {
+  color: #ffffff;
+}
+
+.authCommon .borderBottom {
+  border-bottom: 0.1rem solid rgba(239, 239, 239, 0.5);
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.authCommon .subheading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.authCommon .subheading p {
+  color: #ffe600;
+}
+
+.authCommon .subheading i {
+  color: #ffe600;
+  margin-left: 1rem;
+}
+
+.authTreasury {
+  background: rgba(255, 230, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.authTreasury h1 {
+  color: #ffe600;
+  font-size: 1rem;
+}
+
+.authTreasury h2 {
+  color: #ffffff;
+}
+
+.authTreasury .price {
+  color: #ffffff;
+}
+
+.authTreasury .borderBottom {
+  border-bottom: 0.1rem solid rgba(239, 239, 239, 0.5);
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.authTreasury .subheading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.authTreasury .subheading p {
+  color: #ffe600;
+}
+
+.authTreasury .subheading i {
+  color: #ffe600;
+  margin-left: 1rem;
+}
+
+.authTreasury .sectionTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.authTreasury .sectionTwo ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1;
+}
+
+.authTreasury .sectionTwo ul li {
+  margin-left: 0;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.authTreasury .sectionTwo ul li p {
+  margin: 0;
+}
+
+.authTreasury .sectionTwo ul li span {
+  color: #ffe600;
 }
 /*# sourceMappingURL=styles.css.map */
