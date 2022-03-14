@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/css/lineanimation.css";
 
 const AnimatedLine = () => {
   return (

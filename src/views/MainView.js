@@ -7,7 +7,6 @@ import Header from "../components/Header";
 import HoursSection from "../components/Hours";
 import NavBar from "../components/Navbar";
 
-import "../assets/css/hours.css";
 import HowItWorks from "../components/HowItWorks";
 import Listings from "../components/Listings";
 import NftSection from "../components/NftSection";

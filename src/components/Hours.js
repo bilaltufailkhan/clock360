@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import "../assets/css/hours.css";
 
 import Slide from "react-reveal/Slide";
 import Zoom from "react-reveal/Zoom";

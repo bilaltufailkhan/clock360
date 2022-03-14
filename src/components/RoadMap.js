@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
-import "../assets/css/roadmap.css";
-
 import clockInnerImg from "../assets/img/ring.png";
 import clockLogo from "../assets/img/yellow.png";
 import q1Icon from "../assets/img/mdi_creation.svg";

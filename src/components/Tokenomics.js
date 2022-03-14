@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 
-import "../assets/css/tokenomics.css";
 import Slide from "react-reveal/Slide";
 
 import protectImg from "../assets/img/shield.svg";

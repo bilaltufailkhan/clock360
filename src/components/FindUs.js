@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/css/findus.css";
 
 import { Col, Container, Row } from "reactstrap";
 

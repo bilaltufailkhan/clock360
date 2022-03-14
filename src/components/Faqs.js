@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/css/faqs.css";
 
 import { Container, Row, Col, Collapse } from "reactstrap";
 

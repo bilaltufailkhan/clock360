@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/howitworks.css";
+
 import { Col, Container, Row } from "reactstrap";
 
 const HowItWorks = () => {

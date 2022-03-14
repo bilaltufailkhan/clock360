@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import "../assets/css/footer.css";
 
 import twitter from "../assets/img/twitter.svg";
 import telegram from "../assets/img/telegram.svg";

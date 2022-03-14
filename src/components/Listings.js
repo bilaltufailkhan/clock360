@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 
-import "../assets/css/listings.css";
-
 import Slide from "react-reveal/Slide";
 
 const Listings = () => {

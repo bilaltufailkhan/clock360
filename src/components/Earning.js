@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import anime from "animejs";
 
-import "../assets/css/earning.css";
-
 import Slide from "react-reveal/Slide";
 
 const Earning = () => {

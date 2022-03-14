@@ -3,8 +3,6 @@ import { Container, Row, Col } from "reactstrap";
 import nftImg from "../assets/img/nftbg.png";
 import anime from "animejs";
 
-import "../assets/css/nft.css";
-
 import Slide from "react-reveal/Slide";
 import Zoom from "react-reveal/Zoom";
 

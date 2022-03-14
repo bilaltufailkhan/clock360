@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/header.css";
+
 import { Col, Container, Row } from "reactstrap";
 import HeaderAnimation from "./HeaderAnimation";
 import HeaderContent from "./HeaderContent";

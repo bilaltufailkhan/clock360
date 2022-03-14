@@ -8,8 +8,6 @@ import discord from "../assets/img/discord.svg";
 import medium from "../assets/img/icons8-medium.svg";
 import github from "../assets/img/icons8-github.svg";
 
-import "../assets/css/socials.css";
-
 const Socials = () => {
   return (
     <>

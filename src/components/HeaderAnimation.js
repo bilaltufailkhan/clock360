@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/css/headeranim.css";
 
 import headerGif from "../assets/gif/1.gif";
 
