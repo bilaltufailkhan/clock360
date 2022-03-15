@@ -2573,4 +2573,109 @@ p {
 .authTreasury .sectionTwo ul li span {
   color: #ffe600;
 }
+
+.authTHO {
+  background: rgba(255, 230, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.authTHO .grading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff0000;
+  font-size: 0.8rem;
+}
+
+.authTHO .grading i {
+  margin-right: 0.5rem;
+}
+
+.authTHO h1 {
+  color: #ffe600;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.authTHO h2 {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.authTHO .price {
+  color: #ffffff;
+}
+
+.authTHO .borderBottom {
+  border-bottom: 0.1rem solid rgba(239, 239, 239, 0.5);
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.authTHO .subheading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.authTHO .subheading p {
+  color: #ffe600;
+  margin: 0;
+  padding: 0;
+}
+
+.authTHO .subheading i {
+  color: #ffe600;
+  margin-left: 0.5rem;
+}
+
+.authTHO .sectionFive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.authTHO .sectionFive ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1;
+}
+
+.authTHO .sectionFive ul li {
+  margin-left: 0;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.authTHO .sectionFive ul li p {
+  margin: 0;
+}
+
+.authTHO .sectionFive ul li span {
+  color: #ffe600;
+}
 /*# sourceMappingURL=styles.css.map */

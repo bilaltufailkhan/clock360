@@ -2564,3 +2564,74 @@ p {
     }
   }
 }
+
+.authTHO {
+  background: $transparentBg;
+  border-radius: 0.5rem;
+  .grading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ff0000;
+    font-size: 0.8rem;
+    i {
+      margin-right: 0.5rem;
+    }
+  }
+  h1 {
+    color: $yellowColor;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    color: $whiteColor;
+    margin: 0;
+    padding: 0;
+  }
+  .price {
+    color: $whiteColor;
+  }
+  .borderBottom {
+    border-bottom: 0.1rem solid rgba($color: #efefef, $alpha: 0.5);
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .subheading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    p {
+      color: $yellowColor;
+      margin: 0;
+      padding: 0;
+    }
+    i {
+      color: $yellowColor;
+      margin-left: 0.5rem;
+    }
+  }
+
+  .sectionFive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    ul {
+      list-style: none;
+      padding-left: 0;
+      line-height: 1;
+      li {
+        margin-left: 0;
+        line-height: 1;
+        margin-bottom: 1rem;
+        p {
+          margin: 0;
+        }
+        span {
+          color: $yellowColor;
+        }
+      }
+    }
+  }
+}

@@ -3,48 +3,98 @@ import React from "react";
 const Statik = () => {
   return (
     <>
-      <div className="authTreasury p-5">
+      <div className="authTHO p-5">
         <h1>Statik</h1>
         <div className="sectionOne">
           <div className="subheading">
-            <p id="TooltipExample">Total Value Locked</p>
+            <p id="TooltipExample">Market Price (AVAX)</p>
             <i class="fa-solid fa-circle-question"></i>
           </div>
-          <p className="price">$ 2,597,479</p>
-          <h2>Graph Here</h2>
+          <p className="price">$1.009</p>
+          <span className="grading" style={{ color: "green" }}>
+            <i className="fa-solid fa-sort-up" style={{ color: "green" }}></i>{" "}
+            0.31%
+          </span>
           <div className="borderBottom"></div>
         </div>
         <div className="sectionTwo">
-          <h2>Graph</h2>
+          <div className="subheading">
+            <p>Market Price (MOONBEAM)</p>
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <p className="price">$1.012</p>
+          <span className="grading">
+            <i className="fa-solid fa-sort-down"></i>0.57%
+          </span>
+          <div className="borderBottom"></div>
+        </div>
+        <div className="sectionThree">
+          <div className="subheading">
+            <p>Peg Price</p>
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <p className="price">$1.000</p>
+          <div className="borderBottom"></div>
+        </div>
+        <div className="sectionFour">
+          <div className="subheading">
+            <p>Total Supply</p>
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <p className="price">5,240,981</p>
+          <div className="borderBottom"></div>
+        </div>
+        <div className="sectionFive">
+          <div>
+            <div className="subheading">
+              <p id="TooltipExample">Total Collateral</p>
+              <i class="fa-solid fa-circle-question"></i>
+            </div>
+            <p className="price">$4,192,785</p>
+            <h2>Graph</h2>
+          </div>
           <ul>
+            <p id="TooltipExample">THO</p>
             <li>
-              <p>THO-USDC.e</p>
+              <p>Available Collateral</p>
               <p>
-                $888,028,4 <span>(31%)</span>
+                $1,092,785 <span>(26%)</span>
               </p>
             </li>
             <li>
-              <p>USDC.e(SpiritSwap)</p>
+              <p>Platypus</p>
               <p>
-                $888,028,4 <span>(31%)</span>
+                $900,000 <span>(21%)</span>
               </p>
             </li>
             <li>
-              <p>Curve aTriCrypto</p>
+              <p>Curve AAVE</p>
               <p>
-                $888,028,4 <span>(31%)</span>
+                $600,000 <span>(14%)</span>
               </p>
             </li>
             <li>
-              <p>USDC.e</p>
+              <p>Curve 3poolV2</p>
               <p>
-                $888,028,4 <span>(31%)</span>
+                $600,000 <span>(14%)</span>
               </p>
             </li>
             <li>
-              <p>Others</p>
+              <p>Impermax</p>
               <p>
-                $888,028,4 <span>(31%)</span>
+                $400,000 <span>(10%)</span>
+              </p>
+            </li>
+            <li>
+              <p>Trader Joe (Lending)</p>
+              <p>
+                $300,000 <span>(7%)</span>
+              </p>
+            </li>
+            <li>
+              <p>Curve MAI</p>
+              <p>
+                $300,000 <span>(7%)</span>
               </p>
             </li>
           </ul>
