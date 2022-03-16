@@ -1,4 +1,5 @@
 import AuthView from "../views/auth/AuthView";
+import ClockYield from "../views/auth/ClockYield";
 import Dashboard from "../views/auth/Dashboard";
 import MainView from "../views/MainView";
 
@@ -11,6 +12,11 @@ let routes = [
   {
     path: "/auth/dashboard",
     component: Dashboard,
+    layout: "auth",
+  },
+  {
+    path: "/auth/yield",
+    component: ClockYield,
     layout: "auth",
   },
   {

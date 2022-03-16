@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
-body,
-html {
+body {
   font-family: "Space Grotesk", sans-serif;
   background-color: #000000;
   padding: 0 !important;
@@ -2677,5 +2676,443 @@ p {
 
 .authTHO .sectionFive ul li span {
   color: #ffe600;
+}
+
+.tabs__nav {
+  border: none;
+}
+
+.tabs__nav .tabsNav__item {
+  cursor: pointer;
+  border: none;
+  padding: 0 1rem;
+}
+
+.tabs__nav .tabsNav__item .nav-link {
+  color: #ffffff;
+  border: 0.15rem solid transparent;
+}
+
+.tabs__nav .tabsNav__item .nav-link:hover {
+  border-bottom: 0.15rem solid #ffe600;
+}
+
+.tabs__content {
+  border: 0.1rem solid #ffe600;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.clock__text {
+  color: #ffffff;
+}
+
+.table__clock {
+  background: rgba(60, 193, 59, 0.1);
+  border: none;
+  border-radius: 1rem;
+}
+
+.table__clock .table__head {
+  color: #ffffff;
+  text-align: center;
+  background: #3cc13b;
+  border: none;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 2px 10px #000000;
+          box-shadow: 0px 2px 10px #000000;
+}
+
+.table__clock .table__head .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.table__clock .table__head .heading i {
+  color: #ffe600;
+}
+
+.table__clock .table__head .heading h2 {
+  text-align: center;
+}
+
+.table__clock .table__head .heading__foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.table__clock .table__head .heading__foot .apr p {
+  background: #3cc13b;
+  padding: 0.3rem 1.2rem;
+  border: #ffe600 0.2rem solid;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 1px 1px 5px #000000;
+          box-shadow: 1px 1px 5px #000000;
+}
+
+.table__clock .table__head .heading__foot .amount p {
+  padding: 0.3rem 1.2rem;
+}
+
+.table__clock .table__body {
+  text-align: center;
+  color: #ffffff;
+}
+
+.table__clock .table__body .ranges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.table__clock .table__body .ranges p {
+  font-size: 0.8rem;
+}
+
+.table__clock .table__body input[type="range"] {
+  display: block;
+  -webkit-appearance: none;
+  background-color: #3cc13b;
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  margin: 0 auto;
+  outline: 0;
+}
+
+.table__clock .table__body input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #3cc13b;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0.4rem solid #ffe600;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.table__clock .range {
+  margin-bottom: 1rem;
+}
+
+.table__clock .range h6 {
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+.table__clock button {
+  background: #3cc13b;
+  border-radius: 0.8rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.table__clock button:hover {
+  color: #ffffff;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.wall__clock {
+  background: rgba(60, 193, 59, 0.1);
+  border: none;
+  border-radius: 1rem;
+}
+
+.wall__clock .table__head {
+  color: #ffffff;
+  text-align: center;
+  background: #3cc13b;
+  border: none;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 2px 10px #000000;
+          box-shadow: 0px 2px 10px #000000;
+}
+
+.wall__clock .table__head .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wall__clock .table__head .heading i {
+  color: #ffe600;
+}
+
+.wall__clock .table__head .heading h2 {
+  text-align: center;
+}
+
+.wall__clock .table__head .heading__foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wall__clock .table__head .heading__foot .apr p {
+  background: #3cc13b;
+  padding: 0.3rem 1.2rem;
+  border: #ffe600 0.2rem solid;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 1px 1px 5px #000000;
+          box-shadow: 1px 1px 5px #000000;
+}
+
+.wall__clock .table__head .heading__foot .amount p {
+  padding: 0.3rem 1.2rem;
+}
+
+.wall__clock .table__body {
+  text-align: center;
+  color: #ffffff;
+}
+
+.wall__clock .table__body .ranges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wall__clock .table__body .ranges p {
+  font-size: 0.8rem;
+}
+
+.wall__clock .table__body input[type="range"] {
+  display: block;
+  -webkit-appearance: none;
+  background-color: #3cc13b;
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  margin: 0 auto;
+  outline: 0;
+}
+
+.wall__clock .table__body input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #3cc13b;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0.4rem solid #ffe600;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.wall__clock .range {
+  margin-bottom: 1rem;
+}
+
+.wall__clock .range h6 {
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+.wall__clock button {
+  background: #3cc13b;
+  border-radius: 0.8rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.wall__clock button:hover {
+  color: #ffffff;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.grand__clock {
+  background: rgba(60, 193, 59, 0.1);
+  border: none;
+  border-radius: 1rem;
+}
+
+.grand__clock .table__head {
+  color: #ffffff;
+  text-align: center;
+  background: #3cc13b;
+  border: none;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 2px 10px #000000;
+          box-shadow: 0px 2px 10px #000000;
+}
+
+.grand__clock .table__head .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.grand__clock .table__head .heading i {
+  color: #ffe600;
+}
+
+.grand__clock .table__head .heading h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.grand__clock .table__head .heading__foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.grand__clock .table__head .heading__foot .apr p {
+  background: #3cc13b;
+  padding: 0.3rem 1.2rem;
+  border: #ffe600 0.2rem solid;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 1px 1px 5px #000000;
+          box-shadow: 1px 1px 5px #000000;
+}
+
+.grand__clock .table__head .heading__foot .amount p {
+  padding: 0.3rem 1.2rem;
+}
+
+.grand__clock .table__body {
+  text-align: center;
+  color: #ffffff;
+}
+
+.grand__clock .table__body .ranges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.grand__clock .table__body .ranges p {
+  font-size: 0.8rem;
+}
+
+.grand__clock .table__body input[type="range"] {
+  display: block;
+  -webkit-appearance: none;
+  background-color: #3cc13b;
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  margin: 0 auto;
+  outline: 0;
+}
+
+.grand__clock .table__body input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #3cc13b;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0.4rem solid #ffe600;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.grand__clock .range {
+  margin-bottom: 1rem;
+}
+
+.grand__clock .range h6 {
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+.grand__clock button {
+  background: #3cc13b;
+  border-radius: 0.8rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.grand__clock button:hover {
+  color: #ffffff;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 /*# sourceMappingURL=styles.css.map */
