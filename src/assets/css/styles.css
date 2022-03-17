@@ -2716,7 +2716,8 @@ p {
 .table__clock .table__head {
   color: #ffffff;
   text-align: center;
-  background: #3cc13b;
+  background: #20e4a4;
+  background: linear-gradient(45deg, #20e4a4 0%, #3cc13b 100%);
   border: none;
   border-radius: 1rem;
   -webkit-box-shadow: 0px 2px 10px #000000;
@@ -2844,7 +2845,7 @@ p {
 }
 
 .wall__clock {
-  background: rgba(60, 193, 59, 0.1);
+  background: rgba(64, 134, 255, 0.1);
   border: none;
   border-radius: 1rem;
 }
@@ -2852,7 +2853,8 @@ p {
 .wall__clock .table__head {
   color: #ffffff;
   text-align: center;
-  background: #3cc13b;
+  background: #4086ff;
+  background: linear-gradient(130deg, #4086ff 0%, #776aa5 100%);
   border: none;
   border-radius: 1rem;
   -webkit-box-shadow: 0px 2px 10px #000000;
@@ -2897,7 +2899,7 @@ p {
 }
 
 .wall__clock .table__head .heading__foot .apr p {
-  background: #3cc13b;
+  background: #4086ff;
   padding: 0.3rem 1.2rem;
   border: #ffe600 0.2rem solid;
   border-radius: 0.5rem;
@@ -2934,7 +2936,7 @@ p {
 .wall__clock .table__body input[type="range"] {
   display: block;
   -webkit-appearance: none;
-  background-color: #3cc13b;
+  background-color: #4086ff;
   width: 100%;
   height: 10px;
   border-radius: 999px;
@@ -2944,7 +2946,7 @@ p {
 
 .wall__clock .table__body input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background-color: #3cc13b;
+  background-color: #4086ff;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -2964,7 +2966,7 @@ p {
 }
 
 .wall__clock button {
-  background: #3cc13b;
+  background: #4086ff;
   border-radius: 0.8rem;
   font-weight: 500;
   color: #ffffff;
@@ -2988,7 +2990,8 @@ p {
 .grand__clock .table__head {
   color: #ffffff;
   text-align: center;
-  background: #3cc13b;
+  background: #f03738;
+  background: linear-gradient(130deg, #f03738 0%, #f02a7d 100%);
   border: none;
   border-radius: 1rem;
   -webkit-box-shadow: 0px 2px 10px #000000;
@@ -3034,7 +3037,7 @@ p {
 }
 
 .grand__clock .table__head .heading__foot .apr p {
-  background: #3cc13b;
+  background: #f03738;
   padding: 0.3rem 1.2rem;
   border: #ffe600 0.2rem solid;
   border-radius: 0.5rem;
@@ -3071,7 +3074,7 @@ p {
 .grand__clock .table__body input[type="range"] {
   display: block;
   -webkit-appearance: none;
-  background-color: #3cc13b;
+  background-color: #f03738;
   width: 100%;
   height: 10px;
   border-radius: 999px;
@@ -3081,7 +3084,7 @@ p {
 
 .grand__clock .table__body input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background-color: #3cc13b;
+  background-color: #f03738;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -3101,7 +3104,7 @@ p {
 }
 
 .grand__clock button {
-  background: #3cc13b;
+  background: #f03738;
   border-radius: 0.8rem;
   font-weight: 500;
   color: #ffffff;
@@ -3114,5 +3117,79 @@ p {
           transform: translateY(-5px);
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+
+.clock__yield {
+  background: url("../img/earthfooter.png");
+  background-size: 50%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.number__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  border-radius: 0.8rem;
+  border: 2px solid #ffe600;
+  padding: 0 1rem;
+}
+
+.number__input p {
+  font-size: 1.2rem;
+  color: #ffe600;
+}
+
+.number__input button {
+  background: #ffe600;
+  border: none;
+  outline: 0;
+  border-radius: 999rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.number__input .highlight {
+  background: #ffe600;
+  color: #000000;
+  width: auto;
+  border-radius: 1rem;
+  padding: 0.3rem 0.8rem;
+}
+
+.clock__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.clock__title span {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.clock__title i {
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=styles.css.map */

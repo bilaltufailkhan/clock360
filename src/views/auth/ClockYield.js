@@ -12,8 +12,10 @@ import {
 } from "reactstrap";
 import AuthNav from "../../components/AuthComponents/AuthNav";
 import GrandFatherClock from "../../components/AuthComponents/GrandFatherClock";
+import Stake from "../../components/AuthComponents/Stake";
 import TableClock from "../../components/AuthComponents/TableClock";
 import WallClock from "../../components/AuthComponents/WallClock";
+import Footer from "../../components/Footer";
 
 class ClockYield extends React.Component {
   constructor(props) {
@@ -34,9 +36,9 @@ class ClockYield extends React.Component {
   }
   render() {
     return (
-      <>
+      <div className="clock__yield">
         <AuthNav />
-        <Container>
+        <Container className="my-5 py-5">
           <Row className="">
             <Col md="12" className="align-items-center">
               <Nav tabs className="tabs__nav">
@@ -116,7 +118,7 @@ class ClockYield extends React.Component {
                 <TabPane tabId="2">
                   <Row>
                     <Col md="12">
-                      <h4>Tab 2 Contents</h4>
+                      <Stake />
                     </Col>
                   </Row>
                 </TabPane>
@@ -131,7 +133,9 @@ class ClockYield extends React.Component {
             </Col>
           </Row>
         </Container>
-      </>
+
+        <Footer />
+      </div>
     );
   }
 }
