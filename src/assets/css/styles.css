@@ -3189,7 +3189,205 @@ p {
   margin-left: 5px;
 }
 
+.clock__title img {
+  height: 22px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.clock__title .percentage,
 .clock__title i {
-  font-size: 0.8rem;
+  color: #ffe600;
+  margin-right: 10px;
+}
+
+.clock__title .percentage {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.btn__approve {
+  background: #ffe600;
+  font-weight: 600;
+}
+
+.btn__join {
+  background: #c4c4c4;
+  font-weight: 600;
+  color: #555555;
+}
+
+.stake {
+  padding: 2rem 1rem;
+}
+
+.stake h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.estimated__yield .estimated__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.estimated__yield .estimated__title h2 {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.estimated__yield .estimated__title img {
+  width: auto;
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.estimated__yield .estimates i {
+  color: #ffe600;
+}
+
+.estimated__yield .estimates h4 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.estimated__yield .estimates h4 span {
+  font-size: 1.5rem;
+  color: #c4c4c4;
+}
+
+.myStats p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+}
+
+.myStats p span img {
+  width: auto;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.myStats .market__cap {
+  width: 80%;
+  background: transparent;
+  text-align: center;
+  color: #ffe600;
+  text-shadow: #ffe600 0 0 20px;
+  font-size: 1.5rem;
+  border: 1px solid #ffe600;
+  border-radius: 1rem;
+  padding: 1rem 0.5rem;
+  -webkit-box-shadow: 0px -3px 1px #ffe600;
+          box-shadow: 0px -3px 1px #ffe600;
+}
+
+.myStats .apy__stats {
+  width: 80%;
+  background: transparent;
+  text-align: center;
+  color: #ffe600;
+  text-shadow: #ffe600 0 0 20px;
+  font-size: 1.5rem;
+  border: 1px solid #4086ff;
+  border-radius: 1rem;
+  padding: 1rem 0.5rem;
+  -webkit-box-shadow: 0px -3px 1px #4086ff;
+          box-shadow: 0px -3px 1px #4086ff;
+}
+
+.myStats .next__rebase {
+  width: 80%;
+  background: transparent;
+  text-align: center;
+  color: #ffe600;
+  text-shadow: #ffe600 0 0 20px;
+  font-size: 1.5rem;
+  border: 1px solid #f03738;
+  border-radius: 1rem;
+  padding: 1rem 0.5rem;
+  -webkit-box-shadow: 0px -3px 1px #f03738;
+          box-shadow: 0px -3px 1px #f03738;
+}
+
+.myStats h3 {
+  color: #ffffff;
+}
+
+.myStats .myStats__table {
+  border: 1px solid #ffe600;
+  border-radius: 1rem;
+}
+
+.myStats table {
+  width: 100%;
+}
+
+.myStats table th,
+.myStats table td {
+  padding: 1.5rem 1rem;
+  color: #ffffff;
+}
+
+.myStats table tbody tr td:last-child {
+  color: #ffffff;
+  text-align: end;
+}
+
+.myStats table thead tr {
+  border-bottom: 1px solid #ffe600;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.myStats table thead tr td:last-child {
+  color: #ffe600;
+  text-shadow: #ffe600 0 0 20px;
+  text-align: end;
+}
+
+.current__apy {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 1px solid #ffe600;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.current__apy h4 {
+  color: #ffe600;
+  text-shadow: #ffe600 0 0 20px;
+  font-size: 1.8rem;
+}
+
+.table__under {
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.table__under h5 {
+  color: #ffe600;
+  text-shadow: #ffe600 0 0 20px;
 }
 /*# sourceMappingURL=styles.css.map */

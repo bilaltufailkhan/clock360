@@ -12,9 +12,11 @@ import {
 } from "reactstrap";
 import AuthNav from "../../components/AuthComponents/AuthNav";
 import GrandFatherClock from "../../components/AuthComponents/GrandFatherClock";
+import MyStats from "../../components/AuthComponents/MyStats";
 import Stake from "../../components/AuthComponents/Stake";
 import TableClock from "../../components/AuthComponents/TableClock";
 import WallClock from "../../components/AuthComponents/WallClock";
+import YieldSimulation from "../../components/AuthComponents/YieldSimulation";
 import Footer from "../../components/Footer";
 
 class ClockYield extends React.Component {
@@ -41,7 +43,7 @@ class ClockYield extends React.Component {
         <Container className="my-5 py-5">
           <Row className="">
             <Col md="12" className="align-items-center">
-              <Nav tabs className="tabs__nav">
+              <Nav tabs className="tabs__nav d-none d-md-flex">
                 <NavItem className="tabsNav__item">
                   <NavLink
                     // className={classnames({
@@ -86,46 +88,24 @@ class ClockYield extends React.Component {
                 activeTab={this.state.activeTab}
                 className="p-4 tabs__content"
               >
-                <TabPane tabId="1">
+                <TabPane tabId="1" id="yield">
                   <Row>
                     <Col sm="12" className="px-4 py-4 clock__text">
-                      <h2>Clock360 Yield Simulator</h2>
-                      <p>
-                        In order to participate in SHOs users are required to
-                        Stake their DAO Tokens. Depositing DAO tokens to the
-                        Staking Contracts also provides Venture Yield Rewards.
-                        The Size of the reward depends on the staking period.
-                        Longer Stakes pay better, however users are required to
-                        pay 50% of their earned rewards when unstaking before
-                        the end of their defined period. To learn more watch the
-                        explainer video on the right. Check Historical APR from
-                        SHO Yield
-                      </p>
-                      <Row>
-                        <Col md="4" sm="12">
-                          <TableClock />
-                        </Col>
-                        <Col md="4" sm="12">
-                          <WallClock />
-                        </Col>
-                        <Col md="4" sm="12">
-                          <GrandFatherClock />
-                        </Col>
-                      </Row>
+                      <YieldSimulation />
                     </Col>
                   </Row>
                 </TabPane>
-                <TabPane tabId="2">
+                <TabPane tabId="2" id="stake">
                   <Row>
                     <Col md="12">
                       <Stake />
                     </Col>
                   </Row>
                 </TabPane>
-                <TabPane tabId="3">
+                <TabPane tabId="3" id="stats">
                   <Row>
                     <Col md="12">
-                      <h4>Tab 3 Contents</h4>
+                      <MyStats />
                     </Col>
                   </Row>
                 </TabPane>

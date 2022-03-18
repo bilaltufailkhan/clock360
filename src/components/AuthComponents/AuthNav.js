@@ -58,9 +58,9 @@ class AuthNav extends React.Component {
         <div>
           <Navbar expand="md" className="nav__bar">
             <Container>
-              <NavbarBrand href="/">
+              <Link to="/" className="navbar-brand">
                 <img src={logo} width="auto" height="41px" className="logo" />
-              </NavbarBrand>
+              </Link>
               <NavbarToggler
                 onClick={this.toggle}
                 className={this.toggle ? "toggle__btn" : "toggle__cross"}
@@ -72,29 +72,29 @@ class AuthNav extends React.Component {
               >
                 <Nav className="ml-auto navbar__content my-3" navbar>
                   <NavItem className="nav__item">
-                    <NavLink href="/" className="nav__link">
+                    <Link to="/auth/dashboard" className="nav__link nav-link">
                       Dashboard
-                    </NavLink>
+                    </Link>
                   </NavItem>
                   <NavItem className="nav__item">
-                    <NavLink href="#" className="nav__link">
+                    <Link to="/auth/yield" className="nav__link nav-link">
                       Stake
-                    </NavLink>
+                    </Link>
                   </NavItem>
                   <NavItem className="nav__item">
-                    <NavLink href="#" className="nav__link">
+                    <Link to="/auth/dashboard" className="nav__link nav-link">
                       Docs
-                    </NavLink>
+                    </Link>
                   </NavItem>
                   <NavItem className="nav__item">
-                    <NavLink href="#" className="nav__link">
+                    <Link to="/auth/dashboard" className="nav__link nav-link">
                       Socials
-                    </NavLink>
+                    </Link>
                   </NavItem>
                   <NavItem className="open__app">
-                    <NavLink href="#" className="openApp__btn">
+                    <Link to="/" className="openApp__btn nav-link">
                       Connect Wallet
-                    </NavLink>
+                    </Link>
                   </NavItem>
                 </Nav>
               </Collapse>
@@ -122,27 +122,27 @@ class AuthNav extends React.Component {
                   </button>
                 </li>
                 <li className="drawer__item">
-                  <a href="#">Dashboard</a>
+                  <Link to="/auth/dashboard">Dashboard</Link>
                 </li>
                 <li className="drawer__item">
-                  <a href="#">Docs</a>
+                  <Link to="/auth/yield">Clock Yield</Link>
                 </li>
                 <li className="drawer__item">
-                  <a href="#">Socials</a>
+                  <Link to="/auth/yield">Stake 360</Link>
                 </li>
                 <li className="drawer__item">
-                  <a href="#">FAQs</a>
+                  <Link to="/auth/yield">My Stats</Link>
                 </li>
                 <li className="drawer__item">
-                  <a href="#">Discord</a>
+                  <Link to="/auth/dashboard">Docs</Link>
                 </li>
                 <li className="drawer__item">
-                  <a href="#">Telegram</a>
+                  <Link to="/auth/dashboard">Socials</Link>
                 </li>
                 <li className="drawer__item">
-                  <button href="#" className="openApp__btn">
-                    Open App
-                  </button>
+                  <Link to="/" className="openApp__btn nav-link">
+                    Connect Wallet
+                  </Link>
                 </li>
               </ul>
             </div>
