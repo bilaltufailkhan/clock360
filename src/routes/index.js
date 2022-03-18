@@ -10,14 +10,14 @@ let routes = [
     layout: "auth",
   },
   {
-    path: "/auth/dashboard",
+    path: "/dashboard",
     component: Dashboard,
-    layout: "auth",
+    layout: "main",
   },
   {
-    path: "/auth/yield",
+    path: "/yield",
     component: ClockYield,
-    layout: "auth",
+    layout: "main",
   },
   {
     path: "/",

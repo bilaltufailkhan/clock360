@@ -11,11 +11,8 @@ import {
   TabPane,
 } from "reactstrap";
 import AuthNav from "../../components/AuthComponents/AuthNav";
-import GrandFatherClock from "../../components/AuthComponents/GrandFatherClock";
 import MyStats from "../../components/AuthComponents/MyStats";
 import Stake from "../../components/AuthComponents/Stake";
-import TableClock from "../../components/AuthComponents/TableClock";
-import WallClock from "../../components/AuthComponents/WallClock";
 import YieldSimulation from "../../components/AuthComponents/YieldSimulation";
 import Footer from "../../components/Footer";
 

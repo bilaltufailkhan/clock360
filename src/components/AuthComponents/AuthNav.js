@@ -72,22 +72,22 @@ class AuthNav extends React.Component {
               >
                 <Nav className="ml-auto navbar__content my-3" navbar>
                   <NavItem className="nav__item">
-                    <Link to="/auth/dashboard" className="nav__link nav-link">
+                    <Link to="/dashboard" className="nav__link nav-link">
                       Dashboard
                     </Link>
                   </NavItem>
                   <NavItem className="nav__item">
-                    <Link to="/auth/yield" className="nav__link nav-link">
+                    <Link to="/yield" className="nav__link nav-link">
                       Stake
                     </Link>
                   </NavItem>
                   <NavItem className="nav__item">
-                    <Link to="/auth/dashboard" className="nav__link nav-link">
+                    <Link to="/dashboard" className="nav__link nav-link">
                       Docs
                     </Link>
                   </NavItem>
                   <NavItem className="nav__item">
-                    <Link to="/auth/dashboard" className="nav__link nav-link">
+                    <Link to="/dashboard" className="nav__link nav-link">
                       Socials
                     </Link>
                   </NavItem>
@@ -122,22 +122,22 @@ class AuthNav extends React.Component {
                   </button>
                 </li>
                 <li className="drawer__item">
-                  <Link to="/auth/dashboard">Dashboard</Link>
+                  <Link to="/dashboard">Dashboard</Link>
                 </li>
                 <li className="drawer__item">
-                  <Link to="/auth/yield">Clock Yield</Link>
+                  <Link to="/yield">Clock Yield</Link>
                 </li>
                 <li className="drawer__item">
-                  <Link to="/auth/yield">Stake 360</Link>
+                  <Link to="/yield">Stake 360</Link>
                 </li>
                 <li className="drawer__item">
-                  <Link to="/auth/yield">My Stats</Link>
+                  <Link to="/yield">My Stats</Link>
                 </li>
                 <li className="drawer__item">
-                  <Link to="/auth/dashboard">Docs</Link>
+                  <Link to="/dashboard">Docs</Link>
                 </li>
                 <li className="drawer__item">
-                  <Link to="/auth/dashboard">Socials</Link>
+                  <Link to="/dashboard">Socials</Link>
                 </li>
                 <li className="drawer__item">
                   <Link to="/" className="openApp__btn nav-link">
