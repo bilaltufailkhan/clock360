@@ -1,4 +1,6 @@
 import React from "react";
+import Doughnet from "./Doughnet";
+import LineChart from "./LineChart";
 
 const Treasury = () => {
   return (
@@ -11,12 +13,12 @@ const Treasury = () => {
             <i class="fa-solid fa-circle-question"></i>
           </div>
           <p className="price">$ 2,597,479</p>
-          <h2>Graph Here</h2>
+          <LineChart />
           <div className="borderBottom"></div>
         </div>
-        <div className="sectionTwo">
-          <h2>Graph</h2>
-          <ul>
+        <div className="sectionTwo p-4">
+          <Doughnet />
+          <ul className="ml-4">
             <li>
               <p>THO-USDC.e</p>
               <p>

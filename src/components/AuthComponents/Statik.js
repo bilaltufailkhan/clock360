@@ -1,4 +1,5 @@
 import React from "react";
+import Doughnet from "./Doughnet";
 
 const Statik = () => {
   return (
@@ -51,9 +52,9 @@ const Statik = () => {
               <i class="fa-solid fa-circle-question"></i>
             </div>
             <p className="price">$4,192,785</p>
-            <h2>Graph</h2>
+            <Doughnet />
           </div>
-          <ul>
+          <ul className="ml-2">
             <p id="TooltipExample">THO</p>
             <li>
               <p>Available Collateral</p>

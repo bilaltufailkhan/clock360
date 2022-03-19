@@ -1,4 +1,5 @@
 import React from "react";
+import Doughnet from "./Doughnet";
 
 const THO = () => {
   return (
@@ -50,7 +51,7 @@ const THO = () => {
               <i class="fa-solid fa-circle-question"></i>
             </div>
             <p className="price">13,935,803</p>
-            <h2>Graph</h2>
+            <Doughnet />
           </div>
           <ul>
             <p id="TooltipExample">THO</p>

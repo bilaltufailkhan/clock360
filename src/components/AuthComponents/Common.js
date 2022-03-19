@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Tooltip } from "reactstrap";
+import LineChart from "./LineChart";
 
 const Common = () => {
   const [tooltipOpen, setTooltipOpen] = useState(false);
@@ -18,7 +19,7 @@ const Common = () => {
             <i class="fa-solid fa-circle-question"></i>
           </div>
           <p className="price">$22,395,791</p>
-          <h2>Graph Here</h2>
+          <LineChart />
           <div className="borderBottom"></div>
         </div>
         <div className="sectionTwo">
@@ -27,7 +28,7 @@ const Common = () => {
             <i class="fa-solid fa-circle-question"></i>
           </div>
           <p className="price">$22,395,791</p>
-          <h2>Graph Here</h2>
+          <LineChart />
           <div className="borderBottom"></div>
         </div>
         <div className="sectionThree">
@@ -36,7 +37,7 @@ const Common = () => {
             <i class="fa-solid fa-circle-question"></i>
           </div>
           <p className="price">$22,395,791</p>
-          <h2>Graph Here</h2>
+          <LineChart />
         </div>
       </div>
     </>
