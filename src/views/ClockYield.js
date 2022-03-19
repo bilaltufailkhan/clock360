@@ -10,11 +10,11 @@ import {
   TabContent,
   TabPane,
 } from "reactstrap";
-import AuthNav from "../../components/AuthComponents/AuthNav";
-import MyStats from "../../components/AuthComponents/MyStats";
-import Stake from "../../components/AuthComponents/Stake";
-import YieldSimulation from "../../components/AuthComponents/YieldSimulation";
-import Footer from "../../components/Footer";
+import AuthNav from "../components/AuthComponents/AuthNav";
+import MyStats from "../components/AuthComponents/MyStats";
+import Stake from "../components/AuthComponents/Stake";
+import YieldSimulation from "../components/AuthComponents/YieldSimulation";
+import Footer from "../components/Footer";
 
 class ClockYield extends React.Component {
   constructor(props) {

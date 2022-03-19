@@ -1,6 +1,6 @@
 import AuthView from "../views/auth/AuthView";
-import ClockYield from "../views/auth/ClockYield";
-import Dashboard from "../views/auth/Dashboard";
+import ClockYield from "../views/ClockYield";
+import Dashboard from "../views/Dashboard";
 import MainView from "../views/MainView";
 
 let routes = [
