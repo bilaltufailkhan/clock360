@@ -1478,6 +1478,386 @@ body {
 }
 
 /* Media Queries */
+@media only screen and (min-width: 1840px) {
+  .roadmap {
+    height: auto;
+  }
+  .clock__inner {
+    position: absolute;
+    top: 35%;
+    left: 38.5%;
+    width: 250px;
+  }
+  .clock__logo {
+    position: absolute;
+    top: 40.5%;
+    left: 45%;
+    width: 100px;
+    height: auto;
+  }
+  .q1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 999rem;
+    background-color: #000000;
+    border: #ffffff 2px solid;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 45.5%;
+    right: 33.5%;
+    -webkit-box-shadow: 0px 0px 30px #ffe600;
+            box-shadow: 0px 0px 30px #ffe600;
+    z-index: 100;
+  }
+  .q1 > span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffe600;
+  }
+  .q2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 999rem;
+    background-color: #000000;
+    border: #ffffff 2px solid;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    bottom: 32.5%;
+    left: 48.3%;
+    -webkit-box-shadow: 0px 0px 30px #ffe600;
+            box-shadow: 0px 0px 30px #ffe600;
+    z-index: 100;
+  }
+  .q2 > span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffe600;
+  }
+  .q3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 999rem;
+    background-color: #000000;
+    border: #ffffff 2px solid;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 46.5%;
+    left: 33.5%;
+    -webkit-box-shadow: 0px 0px 30px #ffe600;
+            box-shadow: 0px 0px 30px #ffe600;
+    z-index: 100;
+  }
+  .q3 > span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffe600;
+  }
+  .q4 {
+    height: 40px;
+    width: 40px;
+    border-radius: 999rem;
+    background-color: #000000;
+    border: #ffffff 2px solid;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 29%;
+    left: 48%;
+    -webkit-box-shadow: 0px 0px 30px #ffe600;
+            box-shadow: 0px 0px 30px #ffe600;
+    z-index: 100;
+  }
+  .q4 > span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffe600;
+  }
+  .q1__line {
+    height: 2px;
+    width: 50px;
+    background: repeating-linear-gradient(to right, #ffe600 0, #ffe600 5px, transparent 5px, transparent 7px);
+    position: absolute;
+    right: 25%;
+    top: 47.5%;
+  }
+  .q2__line {
+    height: 2px;
+    width: 50px;
+    background: repeating-linear-gradient(to right, #ffe600 0, #ffe600 5px, transparent 5px, transparent 7px);
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    position: absolute;
+    left: 50% !important;
+    bottom: 32% !important;
+  }
+  .q3__line {
+    height: 2px;
+    width: 50px;
+    background: repeating-linear-gradient(to right, #ffe600 0, #ffe600 5px, transparent 5px, transparent 7px);
+    position: absolute;
+    left: 18.5%;
+    top: 48.5%;
+  }
+  .q4__line {
+    height: 3px;
+    width: 50px;
+    background: repeating-linear-gradient(to right, #ffe600 0, #ffe600 5px, transparent 5px, transparent 7px);
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    position: absolute;
+    top: 30% !important;
+    left: 49.8% !important;
+  }
+  .q1__content {
+    position: absolute;
+    top: 45.6%;
+    right: 20%;
+  }
+  .q1__content > img {
+    width: 1.5rem;
+    height: auto;
+  }
+  .q1__content > span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffe600;
+    text-shadow: #ffe600 0 0 20px;
+  }
+  .q2__content {
+    position: absolute;
+    bottom: 17%;
+    left: 44%;
+  }
+  .q2__content > img {
+    width: 1.5rem;
+    height: auto;
+  }
+  .q2__content > span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffe600;
+    text-shadow: #ffe600 0 0 20px;
+  }
+  .q3__content {
+    position: absolute;
+    top: 46%;
+    left: 17%;
+    text-align: center;
+    line-height: 1;
+  }
+  .q3__content > img {
+    width: 1.5rem;
+    height: auto;
+  }
+  .q3__content > span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffe600;
+    text-shadow: #ffe600 0 0 20px;
+  }
+  .q4__content {
+    position: absolute;
+    top: 16%;
+    left: 44%;
+  }
+  .q4__content > img {
+    width: 1.5rem;
+    height: auto;
+  }
+  .q4__content > span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffe600;
+    text-shadow: #ffe600 0 0 20px;
+  }
+  .triangle__1 {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #ffe600;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: 46.5%;
+    right: 28.5%;
+  }
+  .triangle__2 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ffe600;
+    position: absolute;
+    top: 75%;
+    left: 49.2%;
+  }
+  .triangle__3 {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #ffe600;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: 47.5%;
+    left: 27.2%;
+  }
+  .triangle__4 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffe600;
+    position: absolute;
+    top: 22.5%;
+    left: 48.8%;
+  }
+  /* Animations */
+  .q1__line {
+    -webkit-animation: prog 5s linear infinite;
+            animation: prog 5s linear infinite;
+    right: 33%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    overflow: hidden;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+  @-webkit-keyframes prog {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 37px;
+    }
+  }
+  @keyframes prog {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 37px;
+    }
+  }
+  .q3__line {
+    -webkit-animation: prog3 5s linear infinite;
+            animation: prog3 5s linear infinite;
+    left: 32.5%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    overflow: hidden;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  @-webkit-keyframes prog3 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 46.5px;
+    }
+  }
+  @keyframes prog3 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 46.5px;
+    }
+  }
+  .q2__line {
+    -webkit-animation: prog2 5s linear infinite;
+            animation: prog2 5s linear infinite;
+    left: 49.3%;
+    bottom: 44.5%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    overflow: hidden;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  @-webkit-keyframes prog2 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 60px;
+    }
+  }
+  @keyframes prog2 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 60px;
+    }
+  }
+  .q4__line {
+    -webkit-animation: prog4 5s linear infinite;
+            animation: prog4 5s linear infinite;
+    left: 49.5%;
+    top: 43%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    overflow: hidden;
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  @-webkit-keyframes prog4 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 55px;
+    }
+  }
+  @keyframes prog4 {
+    0% {
+      width: 0px;
+    }
+    50% {
+      width: 20px;
+    }
+    100% {
+      width: 55px;
+    }
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .roadmap {
     height: auto;
