@@ -91,8 +91,8 @@ class AuthNav extends React.Component {
                       Socials
                     </Link>
                   </NavItem>
-                  <NavItem className="open__app">
-                    <Link to="/" className="openApp__btn nav-link">
+                  <NavItem className="connect__walletBtn">
+                    <Link to="/" className="connect__wallet nav-link">
                       Connect Wallet
                     </Link>
                   </NavItem>
@@ -140,7 +140,7 @@ class AuthNav extends React.Component {
                   <Link to="/dashboard">Socials</Link>
                 </li>
                 <li className="drawer__item">
-                  <Link to="/" className="openApp__btn nav-link">
+                  <Link to="/" className="connect__wallet nav-link">
                     Connect Wallet
                   </Link>
                 </li>

@@ -3771,4 +3771,29 @@ p {
   color: #ffe600;
   text-shadow: #ffe600 0 0 20px;
 }
+
+.connect__walletBtn {
+  padding: 0 1rem;
+}
+
+.connect__wallet {
+  border: 2px solid #2af0c0;
+  background-color: #2af0c0;
+  border-radius: 1rem;
+  color: #0d0d0d;
+  -webkit-box-shadow: #2af0c0 0 0 20px;
+          box-shadow: #2af0c0 0 0 20px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.8rem 1.5rem;
+}
+
+.connect__wallet:hover {
+  text-decoration: none;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #0d0d0d;
+}
 /*# sourceMappingURL=styles.css.map */
