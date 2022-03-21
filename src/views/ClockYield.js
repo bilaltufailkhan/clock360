@@ -10,6 +10,7 @@ import {
   TabContent,
   TabPane,
 } from "reactstrap";
+import { Link } from "react-router-dom";
 import AuthNav from "../components/AuthComponents/AuthNav";
 import MyStats from "../components/AuthComponents/MyStats";
 import Stake from "../components/AuthComponents/Stake";
@@ -42,7 +43,7 @@ class ClockYield extends React.Component {
             <Col md="12" className="align-items-center">
               <Nav tabs className="tabs__nav d-none d-md-flex">
                 <NavItem className="tabsNav__item">
-                  <NavLink
+                  <Link
                     // className={classnames({
                     //   active: this.state.activeTab === "1",
                     // })}
@@ -52,10 +53,10 @@ class ClockYield extends React.Component {
                     }}
                   >
                     Clock Yield Simulation
-                  </NavLink>
+                  </Link>
                 </NavItem>
                 <NavItem className="tabsNav__item">
-                  <NavLink
+                  <Link
                     // className={classnames({
                     //   active: this.state.activeTab === "2",
                     // })}
@@ -65,10 +66,10 @@ class ClockYield extends React.Component {
                     }}
                   >
                     Stake C360
-                  </NavLink>
+                  </Link>
                 </NavItem>
                 <NavItem className="tabsNav__item">
-                  <NavLink
+                  <Link
                     // className={classnames({
                     //   active: this.state.activeTab === "2",
                     // })}
@@ -78,7 +79,7 @@ class ClockYield extends React.Component {
                     }}
                   >
                     My Stats
-                  </NavLink>
+                  </Link>
                 </NavItem>
               </Nav>
               <TabContent

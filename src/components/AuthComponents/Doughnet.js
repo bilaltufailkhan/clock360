@@ -16,13 +16,14 @@ const Doughnet = () => {
           "rgb(50, 50, 50)",
           "rgb(150, 150, 150)",
         ],
-        hoverOffset: 1,
+        hoverOffset: 4,
+        radius: "100%",
       },
     ],
   };
   return (
     <div>
-      <Doughnut radius={50} data={data} />
+      <Doughnut data={data} />
     </div>
   );
 };

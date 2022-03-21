@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Row } from "reactstrap";
 import Doughnet from "./Doughnet";
 
 const Statik = () => {
@@ -45,61 +46,63 @@ const Statik = () => {
           <p className="price">5,240,981</p>
           <div className="borderBottom"></div>
         </div>
-        <div className="sectionFive">
-          <div>
+        <Row className="sectionFive">
+          <Col md="6" sm="12" className="my-2">
             <div className="subheading">
               <p id="TooltipExample">Total Collateral</p>
               <i class="fa-solid fa-circle-question"></i>
             </div>
             <p className="price">$4,192,785</p>
             <Doughnet />
-          </div>
-          <ul className="ml-2">
-            <p id="TooltipExample">THO</p>
-            <li>
-              <p>Available Collateral</p>
-              <p>
-                $1,092,785 <span>(26%)</span>
-              </p>
-            </li>
-            <li>
-              <p>Platypus</p>
-              <p>
-                $900,000 <span>(21%)</span>
-              </p>
-            </li>
-            <li>
-              <p>Curve AAVE</p>
-              <p>
-                $600,000 <span>(14%)</span>
-              </p>
-            </li>
-            <li>
-              <p>Curve 3poolV2</p>
-              <p>
-                $600,000 <span>(14%)</span>
-              </p>
-            </li>
-            <li>
-              <p>Impermax</p>
-              <p>
-                $400,000 <span>(10%)</span>
-              </p>
-            </li>
-            <li>
-              <p>Trader Joe (Lending)</p>
-              <p>
-                $300,000 <span>(7%)</span>
-              </p>
-            </li>
-            <li>
-              <p>Curve MAI</p>
-              <p>
-                $300,000 <span>(7%)</span>
-              </p>
-            </li>
-          </ul>
-        </div>
+          </Col>
+          <Col md="6" sm="12" className="my-2">
+            <ul className="ml-2">
+              <p id="TooltipExample">THO</p>
+              <li>
+                <p>Available Collateral</p>
+                <p>
+                  $1,092,785 <span>(26%)</span>
+                </p>
+              </li>
+              <li>
+                <p>Platypus</p>
+                <p>
+                  $900,000 <span>(21%)</span>
+                </p>
+              </li>
+              <li>
+                <p>Curve AAVE</p>
+                <p>
+                  $600,000 <span>(14%)</span>
+                </p>
+              </li>
+              <li>
+                <p>Curve 3poolV2</p>
+                <p>
+                  $600,000 <span>(14%)</span>
+                </p>
+              </li>
+              <li>
+                <p>Impermax</p>
+                <p>
+                  $400,000 <span>(10%)</span>
+                </p>
+              </li>
+              <li>
+                <p>Trader Joe (Lending)</p>
+                <p>
+                  $300,000 <span>(7%)</span>
+                </p>
+              </li>
+              <li>
+                <p>Curve MAI</p>
+                <p>
+                  $300,000 <span>(7%)</span>
+                </p>
+              </li>
+            </ul>
+          </Col>
+        </Row>
       </div>
     </>
   );

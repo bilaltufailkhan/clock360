@@ -1,6 +1,8 @@
 import React from "react";
 import Doughnet from "./Doughnet";
 
+import { Col, Row } from "reactstrap";
+
 const THO = () => {
   return (
     <>
@@ -44,31 +46,33 @@ const THO = () => {
           <p className="price">4.250</p>
           <div className="borderBottom"></div>
         </div>
-        <div className="sectionFive">
-          <div>
+        <Row className="sectionFive">
+          <Col className="my-2" md="6" sm="12">
             <div className="subheading">
-              <p id="TooltipExample">Total Value Locked</p>
+              <p id="TooltipExample">Total Supply</p>
               <i class="fa-solid fa-circle-question"></i>
             </div>
-            <p className="price">13,935,803</p>
+            <p className="price">$13,935,803</p>
             <Doughnet />
-          </div>
-          <ul>
-            <p id="TooltipExample">THO</p>
-            <li>
-              <p>THO-USDC.e</p>
-              <p>
-                $888,028,4 <span>(31%)</span>
-              </p>
-            </li>
-            <li>
-              <p>USDC.e(SpiritSwap)</p>
-              <p>
-                $888,028,4 <span>(31%)</span>
-              </p>
-            </li>
-          </ul>
-        </div>
+          </Col>
+          <Col className="my-2" md="6" sm="12">
+            <ul className="ml-2">
+              <p id="TooltipExample">THO</p>
+              <li>
+                <p>Circulating Supply</p>
+                <p>
+                  12,340,618 THO <span>(89%)</span>
+                </p>
+              </li>
+              <li>
+                <p>Locked Supply</p>
+                <p>
+                  1,595,186 THO <span>(11%)</span>
+                </p>
+              </li>
+            </ul>
+          </Col>
+        </Row>
       </div>
     </>
   );
