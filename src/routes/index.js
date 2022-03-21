@@ -1,3 +1,6 @@
+import MyStats from "../components/AuthComponents/MyStats";
+import Stake from "../components/AuthComponents/Stake";
+import YieldSimulation from "../components/AuthComponents/YieldSimulation";
 import AuthView from "../views/auth/AuthView";
 import ClockYield from "../views/ClockYield";
 import Dashboard from "../views/Dashboard";
@@ -17,6 +20,21 @@ let routes = [
   {
     path: "/yield",
     component: ClockYield,
+    layout: "main",
+  },
+  {
+    path: "/yield/clock",
+    component: YieldSimulation,
+    layout: "main",
+  },
+  {
+    path: "/yield/clock",
+    component: Stake,
+    layout: "main",
+  },
+  {
+    path: "/yield/clock",
+    component: MyStats,
     layout: "main",
   },
   {

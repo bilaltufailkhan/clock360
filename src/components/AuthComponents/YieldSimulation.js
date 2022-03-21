@@ -18,13 +18,13 @@ const YieldSimulation = () => {
         Historical APR from SHO Yield
       </p>
       <Row>
-        <Col md="4" sm="12">
+        <Col md="4" sm="12" className="my-3">
           <TableClock />
         </Col>
-        <Col md="4" sm="12">
+        <Col md="4" sm="12" className="my-3">
           <WallClock />
         </Col>
-        <Col md="4" sm="12">
+        <Col md="4" sm="12" className="my-3">
           <GrandFatherClock />
         </Col>
       </Row>

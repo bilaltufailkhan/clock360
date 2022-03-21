@@ -17,6 +17,8 @@ import Stake from "../components/AuthComponents/Stake";
 import YieldSimulation from "../components/AuthComponents/YieldSimulation";
 import Footer from "../components/Footer";
 
+// import YieldSimulationView from "./YieldSimulationView";
+
 class ClockYield extends React.Component {
   constructor(props) {
     super(props);
@@ -41,9 +43,9 @@ class ClockYield extends React.Component {
         <Container className="my-5 py-5">
           <Row className="">
             <Col md="12" className="align-items-center">
-              <Nav tabs className="tabs__nav d-none d-md-flex">
+              <Nav tabs className="tabs__nav">
                 <NavItem className="tabsNav__item">
-                  <Link
+                  <NavLink
                     // className={classnames({
                     //   active: this.state.activeTab === "1",
                     // })}
@@ -51,25 +53,28 @@ class ClockYield extends React.Component {
                     onClick={() => {
                       this.toggle("1");
                     }}
+                    // to="/yield/clock"
                   >
                     Clock Yield Simulation
-                  </Link>
+                  </NavLink>
                 </NavItem>
                 <NavItem className="tabsNav__item">
-                  <Link
+                  <NavLink
                     // className={classnames({
                     //   active: this.state.activeTab === "2",
                     // })}
-                    className="nav-link"
+                    // className="nav-link"
                     onClick={() => {
                       this.toggle("2");
                     }}
+                    // to="/yield/stake"
+                    className="nav-link"
                   >
                     Stake C360
-                  </Link>
+                  </NavLink>
                 </NavItem>
                 <NavItem className="tabsNav__item">
-                  <Link
+                  <NavLink
                     // className={classnames({
                     //   active: this.state.activeTab === "2",
                     // })}
@@ -77,9 +82,11 @@ class ClockYield extends React.Component {
                     onClick={() => {
                       this.toggle("3");
                     }}
+                    // to="/yield/stats"
+                    // className="nav-link"
                   >
                     My Stats
-                  </Link>
+                  </NavLink>
                 </NavItem>
               </Nav>
               <TabContent
