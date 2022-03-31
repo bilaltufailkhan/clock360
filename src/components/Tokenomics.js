@@ -24,8 +24,10 @@ const Tokenomics = () => {
               </h2>
               <div className="tokenomics__line d-md-block d-none"></div>
               <p className="text-lg-left text-center">
-                $Clock360 is a BEP-20 with an Elastic Supply that rewards
-                holders using a Positive Rebase Formula.
+                Clock360 provides a simple and elegant eleastic supply that
+                rewards Clock360 token holders with a positive and proven rebase
+                formula. Thus, making it risk free, sustainable and highly
+                rewarding.
               </p>
             </Slide>
           </Col>
@@ -35,8 +37,8 @@ const Tokenomics = () => {
                 <img src={pieChart} width="auto" height="52px" />
                 <h3>Automatic LP</h3>
                 <span>
-                  5% of the Trading Fees return to the Liquidity ensuring
-                  $Clock360’s increasing Collateral Value.
+                  A portion of the trading fee(5%) is returned to the liquidity
+                  in order to create Clock360's Colletral Stability.
                 </span>
               </div>
             </Slide>
@@ -45,8 +47,9 @@ const Tokenomics = () => {
                 <img src={protectImg} width="auto" height="90px" />
                 <h3>Treasury</h3>
                 <span>
-                  3% of the purchases and 8% of the sales go Directly to the
-                  treasury which supports the RFV.
+                  The treasury of RFV is supported in such a way that 3% of the
+                  purchases and 8% of the sales directly go to the treausry of
+                  Clock360 making it the most effective.
                 </span>
               </div>
             </Slide>
@@ -57,9 +60,9 @@ const Tokenomics = () => {
                 <img src={piggyImg} width="auto" height="90px" />
                 <h3>Risk Free Value</h3>
                 <span>
-                  5% of the trading fees are redirected to the RFV which helps
-                  sustain and back the staking rewards providing by the positive
-                  rebase.
+                  The 5% fee for the trading is redirected to RFV which helps to
+                  ensure its sustainability and ensures to back the staking
+                  rewards by providing the highest stable rebase.
                 </span>
               </div>
             </Slide>

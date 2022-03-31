@@ -16,13 +16,13 @@ const NftSection = () => {
               <p className="clock__sub">Prize-Linked Accumulating Yield</p>
               <p className="clock__heading">Clock360 NFT</p>
               <p className="clock__content">
-                Clock360 is the new clock360 nft based project that allows
-                clock360 token holders to generate even more rewards. Simple,
-                Powerful and Proven.
+                Clock360 is the most reliable and proven NFT based project that
+                allows Clock360 token holders to generate the easiest, safest
+                and fastest rewards.
               </p>
               <ul className="clock__list">
                 <li className="clockList__item">
-                  <p>Your Titano Tokens Give You Access to P.L.A.Y.</p>
+                  <p>Your Clock360 Tokens Give You Access to P.L.A.Y.</p>
                 </li>
                 <li className="clockList__item">
                   <p>Easy to Enter Easy to Play</p>

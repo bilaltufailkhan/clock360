@@ -46,9 +46,10 @@ class Faqs extends React.Component {
                 }}
               >
                 <p className="text-white mt-3">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  Clock360 is the best Auto-Staking and Auto-Compounding
+                  protocol in Crypto that has the highest fixed APY: 102,483%,
+                  providing rewards every 30 minutes and making the staking
+                  easier with the highest stable returns in Crypto.
                 </p>
               </Collapse>
             </Col>
@@ -82,9 +83,10 @@ class Faqs extends React.Component {
                 }}
               >
                 <p className="text-white mt-3">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  Auto-Compounding in Clock360 is to hold certain tokens and
+                  yield rewards automatically to earn the highest APY. It is an
+                  excellent way to earn rewards as auto-compounding makes
+                  Clock360 a fastest auto-staking protocol in Crypto.
                 </p>
               </Collapse>
             </Col>
@@ -118,9 +120,11 @@ class Faqs extends React.Component {
                 }}
               >
                 <p className="text-white mt-3">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  Clock360 provides the safest platform for auto-staking right
+                  in your wallet once you purchase your tokens. It makes it
+                  easier so that there's no need to move your tokens to our
+                  website. Our experts have coordinated all the elements you
+                  need to make sure you get what you deserve.
                 </p>
               </Collapse>
             </Col>
@@ -154,9 +158,9 @@ class Faqs extends React.Component {
                 }}
               >
                 <p className="text-white mt-3">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  Clock360 is unique because it has the highest fixed APY
+                  ,making staking easier, providing maximum returns in Crypto
+                  and most importantly saving you time while you make money.
                 </p>
               </Collapse>
             </Col>
@@ -192,9 +196,11 @@ class Faqs extends React.Component {
                 }}
               >
                 <p className="text-white mt-3">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  Yield farming with Clock360 is another greate investment
+                  strategy in DeFi involving lending or staking of your tokens
+                  in the form of transaction interest. Yield Farming is
+                  profitable with Clock360 as it invloves strategies of making
+                  your investements profitable.
                 </p>
               </Collapse>
             </Col>
@@ -228,9 +234,11 @@ class Faqs extends React.Component {
                 }}
               >
                 <p className="text-white mt-3">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  Clock360 is a Bep20 token with an eleastic supply which
+                  ensures that its holders get rewarded with a rebase formula.
+                  Clock360 token is the first auto-staking and auto-compounding
+                  token giving exceptional benefits including rewards for its
+                  holders.
                 </p>
               </Collapse>
             </Col>

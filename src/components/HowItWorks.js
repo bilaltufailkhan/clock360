@@ -10,8 +10,8 @@ const HowItWorks = () => {
           <Col xs={12} className="text-center text-white py-5">
             <h1>How It Works</h1>
             <p className="text-white">
-              Titano Rewards Holders With Automatic Compounding Interest,
-              Increasing Their TITANO Holdings Over Time.
+              Clock360 does not only reward holders with automatic compounding
+              interest but also increases their holdings over time.
             </p>
           </Col>
         </Row>
@@ -24,9 +24,10 @@ const HowItWorks = () => {
               <p className="text">Treasury Revenue</p>
               <p className="subtext">Buy Et Sell Fees</p>
               <p className="content__text">
-                A portion of the buy and sell helps sustain the clock360
-                revenue. 5%of the tradimg volume is redirected to the RFV, thus
-                helping control the clock360 staking protocol distribution.
+                Clock360 revenue is generated with a portion of the buy and sell
+                that makes it sustainable. 5% of the trading volume is
+                redirected to the RFV which helps to control the staking
+                protocol distribution of itself.
               </p>
             </div>
           </Col>

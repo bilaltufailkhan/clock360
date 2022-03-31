@@ -13,8 +13,9 @@ const Earning = () => {
             <h1>How Much Can I Earn?</h1>
             <br />
             <p>
-              Our Products are powered by Defi And Are Designed To Help You
-              Effortlessly Generate Cash Flow From Your Crypto.
+              Clock360 is powered by DeFi and is designed in such a way that it
+              helps you seemlessly generate maximum cash flow from your Crypto
+              in the most flexible manner.
             </p>
           </Col>
         </Row>

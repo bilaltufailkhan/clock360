@@ -22,10 +22,11 @@ const AboutSection = () => {
             <Slide right>
               <h3>ABOUT</h3>
               <p className="">
-                Titano Finance is transforming DeFi with the Titan° Autostaking
-                Protocol [TAP) that delivers the industry's highest fixed APY,
-                rebasing rewards every 30 minutes, and a simple buy-hold-earn
-                system that grows your portfolio in your wallet, fast.
+                Clock360 is making remarkeable changes by transforming DeFi with
+                the auto-staking protocol that delivers the highest fixed APY
+                recorded so far, rebasing rewards every 30 minutes and helps in
+                growing your portfolio much easily with a simple buy-hold-earn
+                system.
               </p>
             </Slide>
           </Col>

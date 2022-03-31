@@ -5,9 +5,9 @@ const HeaderContent = () => {
     <>
       <div className="header__content">
         <h1>
-          The Best Auto-Staking
+          Clock360 - The Finest
           <br />
-          & Auto-Compounding
+          & Auto-Staking & Auto-Compounding
           <br />
           Protocol in Crypto
         </h1>

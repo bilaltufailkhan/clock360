@@ -16,13 +16,9 @@ const HoursSection = () => {
             <Zoom>
               <div className="hours__content">
                 <p>
-                  Titano Rewards Holders With
-                  <br />
-                  Automatic Compounding
-                  <br />
-                  Interest, Increasing Their TITANO
-                  <br />
-                  Holdings Over Time.
+                  Clock360 does not only reward holders with automatic
+                  compounding interest but also increases their holdings over
+                  time.{" "}
                 </p>
               </div>
             </Zoom>
@@ -54,10 +50,10 @@ const HoursSection = () => {
                 <p className="text">Treasury Revenue</p>
                 <p className="subtext">Buy Et Sell Fees</p>
                 <p className="content__text">
-                  a portion of the buy and sell helps sustain the clock360
-                  revenue. 5%of the tradimg volume is redirected to the RFV,
-                  thus helping control the clock360 staking protocol
-                  distribution.
+                  Clock360 revenue is generated with a portion of the buy and
+                  sell that makes it sustainable. 5% of the trading volume is
+                  redirected to the RFV which helps to control the staking
+                  protocol distribution of itself.
                 </p>
               </div>
             </Slide>
@@ -72,8 +68,9 @@ const HoursSection = () => {
                 <p className="text">Treasury Growth</p>
                 <p className="subtext">Clock360 Treasury</p>
                 <p className="content__text">
-                  Treasuary inflow increases the clock360 treasury balance and
-                  back outstanding clock360 tokens.
+                  The regulated treasuary in-flow of Clock360 increases its
+                  treasuary balance and also back outstanding Clock360 Tokens,
+                  thus keeping a check on the in-flow of these tokens.
                 </p>
               </div>
             </Zoom>
@@ -88,8 +85,10 @@ const HoursSection = () => {
                 <p className="text">Staking Rewards</p>
                 <p className="subtext">Clock360 Token</p>
                 <p className="content__text">
-                  compounds automatically with a treasuary-backed currency with
-                  intrinsic value.
+                  Clock360 compounds automatically with the staking reward of
+                  treasuary-backed currency from the minute you buy currency
+                  with the intrinsic value. It provides you the fastest rebase
+                  rewards.
                 </p>
               </div>
             </Slide>
