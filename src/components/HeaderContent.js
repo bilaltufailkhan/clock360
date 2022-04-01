@@ -7,7 +7,7 @@ const HeaderContent = () => {
         <h1>
           Clock360 - The Finest
           <br />
-          & Auto-Staking & Auto-Compounding
+          Auto-Staking Auto-Compounding
           <br />
           Protocol in Crypto
         </h1>

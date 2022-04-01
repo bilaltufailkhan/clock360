@@ -33,8 +33,9 @@ const HoursSection = () => {
               <h1>How It Works</h1>
               <div className="disp__text">
                 <p className="text-white d-lg-none d-block">
-                  Titano Rewards Holders With Automatic Compounding Interest,
-                  Increasing Their TITANO Holdings Over Time.
+                  Clock360 does not only reward holders with automatic
+                  compounding interest but also increases their holdings over
+                  time.
                 </p>
               </div>
             </Zoom>

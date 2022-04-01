@@ -48,7 +48,7 @@ const Tokenomics = () => {
                 <h3>Treasury</h3>
                 <span>
                   The treasury of RFV is supported in such a way that 3% of the
-                  purchases and 8% of the sales directly go to the treausry of
+                  purchases and 8% of the sales directly go to the treasury of
                   Clock360 making it the most effective.
                 </span>
               </div>
